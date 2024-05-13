@@ -37,8 +37,8 @@ jobs:
   
   deploy-dev:
     needs: build
-    environment: desenvolimento
-      name:
+    environment:
+      name: desenvolimento
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
